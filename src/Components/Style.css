@@ -1,0 +1,15 @@
+.logo {
+    cursor: cell;
+}
+.pj-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   gap: 2rem;
+}
+.pj-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px 25px 50px;
+    
+}
