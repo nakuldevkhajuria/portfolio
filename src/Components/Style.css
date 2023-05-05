@@ -7,11 +7,42 @@
     display: flex;
     flex-direction: row;
    gap: 2rem;
+ 
+   font-size: 1.3rem;
+   font-weight: 600;
 }
+.pj-list1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   gap: 2rem;
+   font-family: Poppins,sans-serif;
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+.mobile-menu{
+    list-style: none;
+    display: none;
+    flex-direction: row;
+   gap: 2rem;
+
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+@media (max-width:710px) {
+    .pj-list1{
+        display: none;
+    } 
+    .mobile-menu{
+        display: flex;
+    }
+}
+
+
 .pj-navbar{
     display: flex;
     justify-content: space-between;
-    padding: 15px 50px 15px 50px;
+    padding: 10px 50px 10px 50px;
     
 }
 .fa-codepen{
@@ -21,6 +52,6 @@ margin-right: 1rem;
 
 header{
     /* border-bottom: 1px grey solid ; */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5) ;
     
 }
