@@ -1,0 +1,37 @@
+.section {
+    background-color: #f9f9f9;
+    height: 100vh;
+    font-family: Poppins,sans-serif;
+    /* margin-top: 40px; */
+    
+}
+.container{
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5.7rem auto;
+/* text-align: center; */
+}
+.content{
+    margin: 4rem auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+
+}
+.hero-text{
+    max-width: 30rem;
+}
+.hero-text h1{
+  
+    font-size: 3.3rem;
+    line-height: 1.2;
+    color: rgb(48, 47, 47);
+}
+.hero-main{
+    background-image: url('../../images/Me.jpg');
+    width: 20rem;
+    height: 30rem;
+
+}

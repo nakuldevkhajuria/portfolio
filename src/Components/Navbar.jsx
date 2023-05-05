@@ -3,13 +3,13 @@ import './Style.css'
 
 const Navbar = () => {
   return (
-    <div className="">
-    <header>
+    <div className="navbar">
+   
         <nav className='pj-navbar'>
           
     <h3 className='logo'>
     <i className="fa-brands fa-codepen fa-2xl"></i>
-      Nakul.dev
+      <span> Nakul.dev</span>
       </h3>
     <ul className='pj-list'>
       <li><ul className='pj-list1'>
@@ -25,7 +25,7 @@ const Navbar = () => {
     
     
   </nav>
-  </header>
+
   
   </div>
   )
