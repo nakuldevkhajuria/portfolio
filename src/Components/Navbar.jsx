@@ -6,7 +6,11 @@ const Navbar = () => {
     <div className="">
     <header>
         <nav className='pj-navbar'>
-    <h3 className='logo'>Nakul's Store</h3>
+          
+    <h3 className='logo'>
+    <i class="fa-brands fa-codepen fa-2xl"></i>
+      Nakul.dev
+      </h3>
     <ul className='pj-list'>
       <li>Home</li>
       <li>Store</li>
