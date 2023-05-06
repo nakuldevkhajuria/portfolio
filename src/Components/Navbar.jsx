@@ -14,9 +14,9 @@ const Navbar = () => {
     <ul className='pj-list'>
       <li><ul className='pj-list1'>
       <li>Home</li>
-      <li>Store</li>
-      <li>Contact</li>
       <li>About</li>
+      <li>Project</li>
+      <li>Contact</li>
         </ul></li>
    
       <li><i className="fa-solid fa-bars-staggered mobile-menu"></i></li>

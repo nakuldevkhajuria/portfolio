@@ -1,5 +1,7 @@
+
+
 .section {
-    background-color: #f9f9f9;
+    background-color: #fcfafa;
     height: 100vh;
     font-family: 'Poppins',sans-serif;
     /* margin-top: 40px; */
@@ -32,6 +34,6 @@
 .hero-main{
     background-image: url('../../images/Me.jpg');
     width: 20rem;
-    height: 30rem;
+    height: 20rem;
 
 }
