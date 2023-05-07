@@ -50,12 +50,17 @@
     background-image: url('../../images/Me.jpg');
     width: 20rem;
     height: 20rem;
+    border-radius: 30%;
 
 }
 .social-media{
     display: flex;
     gap: 1.1rem;
   
+}
+.fa-display{
+    margin: 0 2rem;
+    font-size: 2rem;
 }
 .fa-linkedin , .fa-github{
 color: rgb(20, 18, 18);
