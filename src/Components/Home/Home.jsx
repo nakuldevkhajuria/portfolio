@@ -10,8 +10,11 @@ const Home = () => {
                         <p>
                             Hi, i'm Nakul dev Khajuria. A passionate Front-end React developer based in Delhi, India.
                         </p>
-                        <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/stefan-topalovic-dev/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/stefvndev"><i class="fa-brands fa-github"></i></a>
+                        <div className='social-media'>
+                            <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/stefan-topalovic-dev/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/stefvndev"><i class="fa-brands fa-github"></i></a>
+
+                        </div>
                     </div>
                     <div className='hero-main'>
 

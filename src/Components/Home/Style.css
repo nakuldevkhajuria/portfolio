@@ -3,15 +3,16 @@
 .section {
     background-color: #fcfafa;
     height: 100vh;
-    font-family: 'Poppins',sans-serif;
-    /* margin-top: 40px; */
+    font-family: 'Inter', sans-serif;
+
+    /* margin-top: -20px; */
     
 }
 .container{
     max-width: 70rem;
     display: flex;
     flex-direction: column;
-    margin: 5.7rem auto;
+    margin: 2.7rem auto;
 /* text-align: center; */
 }
 .content{
@@ -24,16 +25,44 @@
 }
 .hero-text{
     max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: .9rem;
 }
 .hero-text h1{
-  
-    font-size: 3.3rem;
-    line-height: 1.2;
+  /* display: inline-block; */
+  margin: 0;
+    font-size: 3.8rem;
+    line-height: 1.1;
     color: rgb(48, 47, 47);
 }
+.hero-text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color:#767676;
+    line-height: 1.6;
+    font-weight: 600;
+
+}
+
 .hero-main{
     background-image: url('../../images/Me.jpg');
     width: 20rem;
     height: 20rem;
 
 }
+.social-media{
+    display: flex;
+    gap: 1.1rem;
+  
+}
+.fa-linkedin , .fa-github{
+color: rgb(20, 18, 18);
+    font-size: 2rem;
+}
+ .fa-github:hover,.fa-linkedin:hover{
+    color: blue;
+        font-size: 2rem;
+    }
+
