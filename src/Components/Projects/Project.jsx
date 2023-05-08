@@ -9,6 +9,7 @@ const Project = () => {
         <div>
        
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sed facere esse animi expedita aut iure consequuntur alias sint. Deserunt quibusdam voluptas doloribus libero facilis cum molestiae praesentium, ratione ipsa.</p>
+    
     </div>
 </section>
 <h1>Project 2</h1>
