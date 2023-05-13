@@ -22,7 +22,15 @@ const Home = () => {
 
                     </div>
                 </div>
-                <div className='skills'></div>
+                <div className='skills'>
+                    <p>Tech Stack</p>
+                   <ul>
+                    <li>
+                    <img src="./htmll.svg" title="HTML5" alt="program_img" />
+                    </li>
+                  
+                   </ul>
+                </div>
             </div>
         </div>
     )
