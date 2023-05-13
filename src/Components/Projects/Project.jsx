@@ -1,13 +1,13 @@
 import React from 'react'
-import './Style.css'
+import './ProjectStyle.css'
 const Project = () => {
   return (
     <div className='project'>
     <div className='heading'>
 <h3>PORTFOLIO</h3>
-<p>Projects are like fingerprints, each one leaving a distinctive mark on the journey of development.
+<div>Projects are like fingerprints, each one leaving a distinctive mark on the journey of development.
 <div className='journey'></div>
-</p>
+</div>
     </div>
   
     <div className='section'> 

@@ -23,14 +23,15 @@
 .heading h3{
   color: #147efb;
 }
-.heading p{
+.heading div{
   font-size: 1.4rem;
   font-weight: 700;
 
 }
 .section{
-margin: 5rem auto;
+margin: 5rem auto 0rem;
 max-width: 60rem;
+height: auto;
 
 
 }
@@ -50,19 +51,6 @@ max-width: 60rem;
 }
 
 
-section {
-    
-    /* position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20%;
-    
-    
-    min-height: 200px;
-    padding: 100px; */
-}
 
 
 
