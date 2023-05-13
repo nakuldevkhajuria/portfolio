@@ -5,8 +5,8 @@
 
 @media (max-width:900px){
 
-  .heading p,.heading h3{
-    margin: 0 2rem;
+  .heading div,.heading h3{
+    margin: 1rem 2rem 0rem;
   }
   .section h1,section{
     margin: 2rem 2rem;
