@@ -26,7 +26,7 @@ const Home = () => {
                     <p>Tech Stack</p>
                    <ul>
                     <li>
-                    <img src="./htmll.svg" title="HTML5" alt="program_img" />
+                    <img src="html.png" title="HTML5" alt="program_img" />
                     </li>
                   
                    </ul>

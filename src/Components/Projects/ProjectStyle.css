@@ -1,20 +1,22 @@
 .project{
   background-color: #f9f9f9;
-
+ 
 }
 
 @media (max-width:900px){
-
+.containerProject{
+  margin: 2rem 2rem 2rem;
+}
   .heading div,.heading h3{
     margin: 1rem 2rem 0rem;
   }
-  .section h1,section{
+  .sectionProject h1,sectionProject{
     margin: 2rem 2rem;
   }
 
 }
 .heading{
-  padding: 8rem 0 1rem 0;
+  padding: 4rem 0 1rem 0;
   margin: 0 auto;
 
   max-width: 60rem;
@@ -28,10 +30,10 @@
   font-weight: 700;
 
 }
-.section{
-margin: 5rem auto 0rem;
+.sectionProject{
+margin: 3rem auto 0rem;
 max-width: 60rem;
-height: auto;
+height: 38rem;
 
 
 }

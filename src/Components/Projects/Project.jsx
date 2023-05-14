@@ -3,6 +3,7 @@ import './ProjectStyle.css'
 const Project = () => {
   return (
     <div className='project'>
+      <div className='containerProject'>
     <div className='heading'>
 <h3>PORTFOLIO</h3>
 <div>Projects are like fingerprints, each one leaving a distinctive mark on the journey of development.
@@ -10,7 +11,7 @@ const Project = () => {
 </div>
     </div>
   
-    <div className='section'> 
+    <div className='sectionProject'> 
     <h1>Project 1</h1>
        <section id='grid' className='blue'>
         <div>
@@ -35,6 +36,7 @@ const Project = () => {
     <p>Voluptas, a voluptates. Eum, qui unde ipsum illum earum assumenda voluptates animi distinctio voluptatum odit non provident dolore nam dolores blanditiis, impedit in, alias ad reprehenderit cumque commodi necessitatibus corporis.</p>
     </div>
 </section></div>
+</div>
 
 </div>
   )
