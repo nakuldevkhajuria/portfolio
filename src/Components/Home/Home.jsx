@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Style.css'
 const Home = () => {
+
+useEffect(()=>{
+
+   const list =  document.getElementById('myList li')
+//    list.innerText= 'helo'
+    console.log(list)
+},[])
+
     return (
         <div className='section'>
             <div className='container'>
@@ -24,15 +32,18 @@ const Home = () => {
                 </div>
                 <div className='skills'>
                     <p>Tech Stack</p>
-                   <ul>
-                    <li>
-                    <img src="html.png" title="HTML5" alt="program_img" />
-                    </li>
+                   <ul id='myList'>
+                    <li>f</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                   
                    </ul>
                 </div>
             </div>
         </div>
+  
     )
 }
 
