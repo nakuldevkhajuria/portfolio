@@ -2,7 +2,7 @@
 
 .section {
     background-color: #fcfafa;
-    height: 32rem;
+    height: 36rem;
     font-family: 'Inter', sans-serif;
 
    
@@ -15,7 +15,8 @@
     display: flex;
     flex-direction: column;
     margin: 2.7rem auto;
-/* text-align: center; */
+    position: relative;
+
 }
 .content{
     margin: 4rem auto 0 auto;
@@ -27,27 +28,6 @@
 
 }
 
-@media (max-width:900px){
-  
-
-    .section{
-       
-       height: 52rem;
-     
-    }
-    .social-media{
-        display: flex;
-        justify-content: center;
-        
-      }
-  .content{
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      text-align: center;
-  }
-  
-}
 
 .hero-text{
     max-width: 30rem;
@@ -97,13 +77,8 @@
   
    
   }
-    @media (max-width: 500px) {
-        .hero-main{
-            width: 28rem;
-            height: 28rem;
-        }
+   
     
-    }
     @keyframes morph {
         0% {
             border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -121,34 +96,173 @@
 .social-media{
     display: flex;
     gap: 1.1rem;
+
   
 }
-.fa-display{
+      .fa-display{
     margin: 0 2rem;
     font-size: 2rem;
-}
-.fa-linkedin , .fa-github{
+    }
+    .fa-linkedin , .fa-github{
 color: rgb(20, 18, 18);
     font-size: 2rem;
-}
- .fa-github:hover,.fa-linkedin:hover{
+    }
+    .fa-github:hover,.fa-linkedin:hover{
     color: blue;
         font-size: 2rem;
     }
+    
+  .skillsContainer{
+    margin: 0 0;
+  }
 .skills{
     display: flex;
-    flex-direction: row;
 
+    margin: 2rem 0 1rem 6.3rem;
+    flex-direction: row;
+    
+    
+    
 }
     .skills p{
         border-right: 2px solid rgba(0, 0, 0, 0.5);
+    
         color: #2d2e32;
         font-family: Mulish,sans-serif;
         font-weight: 600;
-        /* margin-right: 7rem; */
-        padding-right: 2rem;
-    }
-
-    .myList{
+        font-size: 21px;
+      
+       padding-right: 2rem;
+        
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     
         
     }
+
+
+    
+    .skills ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      
+        
+     gap: 24px;
+
+    }
+    .skills ul li:nth-child(1){
+        background-image: url('../../images/tech-stack-images/html5.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  width: 3rem;
+  height: 3rem;
+    }
+    .skills ul li:nth-child(2){
+        background-image: url('../../images/tech-stack-images/css.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  width: 3rem;
+  height: 3rem;
+    }
+    .skills ul li:nth-child(3){
+        background-image: url('../../images/tech-stack-images/js.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  width: 3rem;
+  height: 3rem;
+    }
+    .skills ul li:nth-child(4){
+        background-image: url('../../images/tech-stack-images/react.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  width: 3rem;
+  height: 3rem;
+    }
+    .skills ul li:nth-child(5){
+        background-image: url('../../images/tech-stack-images/expressjs.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  width: 3rem;
+  height: 3rem;
+    }
+    .skills ul li:nth-child(6){
+        background-image: url('../../images/tech-stack-images/nodejs.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 9px;
+  width: 6rem;
+
+    }
+    .skills ul li:nth-child(7){
+        background-image: url('../../images/tech-stack-images/plant.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  width: 3rem;
+  height: 3rem;
+    }
+
+    /* .myList{
+        
+    } */
+    
+@media (max-width:900px){
+  
+    .skills{
+        display: flex;
+       
+        margin: 3rem 2rem 2rem 2rem;
+        flex-direction: column;
+        
+        
+    }
+    .skills p{ text-align: center;
+        border-right: none; 
+        margin: 2rem auto;
+        padding-right: 0;
+        
+    }
+    .skills ul{
+        justify-content: space-evenly;
+        gap: 4rem;
+        padding: 0;
+    }
+
+    .section{
+       
+       height: 72rem;
+     
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        
+      }
+  .content{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+  }
+
+    
+}
+
+@media (max-width: 500px) {
+
+    /* .skills{
+        display: flex;
+        position: relative;
+        bottom: -6rem;
+        left: 0rem;
+        flex-direction: row;
+        
+        
+    } */
+    .hero-main{
+        width: 28rem;
+        height: 28rem;
+    }
+
+}
