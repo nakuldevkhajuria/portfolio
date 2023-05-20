@@ -24,6 +24,7 @@
 }
 .heading h3{
   color: #147efb;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0,0.5);
 }
 .heading div{
   font-size: 1.4rem;

@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@200&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&family=Mulish:wght@200&family=Open+Sans&display=swap');
 
-.section{
-  
+.AboutSection{
+    background-color: #fcfafa;
+    height: 36rem;
+    font-family: 'Inter', sans-serif;
+
+   
+
+    margin: 4rem auto;
 }
 #aboutImage{
     background-image: url('../../images/../images/about.jpg');
@@ -57,8 +63,8 @@ width: 450px;
 font-family: 'Open Sans', sans-serif;
 }
 @media (max-width:700px){
-   .section{
-    height: 20rem;
+   .AboutSection{
+    height: 60rem ;
    }
     #aboutImage{
         margin: 0 auto;
