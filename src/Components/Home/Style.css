@@ -99,15 +99,12 @@
 
   
 }
-      .fa-display{
-    margin: 0 2rem;
-    font-size: 2rem;
-    }
-    .fa-linkedin , .fa-github{
-color: rgb(20, 18, 18);
-    font-size: 2rem;
-    }
-    .fa-github:hover,.fa-linkedin:hover{
+  .social-media a {
+    color: rgb(20, 18, 18);
+    font-size: 1.7rem;
+  }
+  
+  .social-media a:hover{
     color: blue;
         font-size: 2rem;
     }

@@ -1,0 +1,31 @@
+.footerSection{
+    background-color: #2d2e32;
+}
+.footerContainer{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+ margin: 0 2.4rem;
+}
+.footerContent div:nth-child(1){
+    color: #fff;
+    font-size: 1.09rem;
+    font-weight: 800;
+   font-family:  Poppins,sans-serif;
+}
+.social-footer{
+    display: flex;
+    gap: 1rem;
+}
+.social-footer a{
+    color: white;
+    font-size: 1.7rem;
+}
+.social-footer a:hover{
+    font-size: 1.9rem;
+    color:blue
+}

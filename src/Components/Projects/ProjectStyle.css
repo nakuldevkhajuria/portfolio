@@ -1,20 +1,14 @@
 .project{
   background-color: #f9f9f9;
+
  
 }
-
-@media (max-width:900px){
 .containerProject{
-  margin: 2rem 2rem 2rem;
+max-width: 70rem;
+margin: 0 auto;
 }
-  .heading div,.heading h3{
-    margin: 1rem 2rem 0rem;
-  }
-  .sectionProject h1,sectionProject{
-    margin: 2rem 2rem;
-  }
 
-}
+
 .heading{
   padding: 4rem 0 1rem 0;
   margin: 0 auto;
@@ -87,3 +81,17 @@ height: 38rem;
 
   /* background-color: red; */
 }
+
+@media (max-width:900px){
+  .containerProject{
+    margin: 2rem 2rem 2rem;
+  }
+    .heading div,.heading h3{
+      margin: 1rem 0rem 0rem;
+    }
+    
+    .sectionProject h1,sectionProject{
+      margin: 2rem 2rem;
+    }
+  
+  }
