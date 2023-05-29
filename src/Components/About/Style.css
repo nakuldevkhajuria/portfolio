@@ -4,7 +4,7 @@
 
 .AboutSection{
     background-color: #fcfafa;
-    height: 36rem;
+    height: 40rem;
     font-family: 'Inter', sans-serif;
 
    
@@ -62,7 +62,7 @@ width: 450px;
   text-align: justify;
 font-family: 'Open Sans', sans-serif;
 }
-@media (max-width:800px){
+@media (max-width:1000px){
    .AboutSection{
     height: 60rem ;
    }

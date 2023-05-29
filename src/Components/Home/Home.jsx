@@ -14,8 +14,8 @@ useEffect(()=>{
             <div className='container'>
                 <div className='content'>
                     <div className='hero-text'>
-                        <h1>Front End React Developer
-                        <i className="fa-solid fa-display"></i>
+                        <h1>Front End React Developer 
+                        <i id='computer' className="fa-solid fa-display"></i>
                         </h1>
                         <p>
                             Hi, i'm Nakul dev Khajuria. A passionate MERN Stack developer based in Delhi, India.

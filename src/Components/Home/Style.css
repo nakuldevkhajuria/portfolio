@@ -36,6 +36,7 @@
     justify-content: flex-start;
     gap: .9rem;
 }
+
 .hero-text h1{
  
   margin: 0;
@@ -52,15 +53,8 @@
 
 }
 
-/* .hero-main{
-    background-image: url('../../images/Me.jpg');
-    width: 20rem;
-    height: 20rem;
-    border-radius: 30%;
-
-} */
 .hero-main {
-    background-image: url("/src/images/Mee.jpg");
+    background-image: url("/src/images/Me.jpg");
     width: 25rem;
     height: 25rem;
     background-size: cover;
@@ -95,13 +89,16 @@
   
 .social-media{
     display: flex;
-    gap: 1.1rem;
+    gap: .8rem;
 
   
 }
+#computer{
+  margin-left: 2rem;
+}
   .social-media a {
-    color: rgb(20, 18, 18);
-    font-size: 1.7rem;
+    color: rgb(51, 46, 46);
+    font-size: 1.8rem;
   }
   
   .social-media a:hover{
@@ -248,15 +245,7 @@
 
 @media (max-width: 500px) {
 
-    /* .skills{
-        display: flex;
-        position: relative;
-        bottom: -6rem;
-        left: 0rem;
-        flex-direction: row;
-        
-        
-    } */
+
     .hero-main{
         width: 28rem;
         height: 28rem;
