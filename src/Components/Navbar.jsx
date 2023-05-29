@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Style.css'
 
+
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+console.log(isMenuOpen)
+  const handleMobileMenuClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="navbar">
    
@@ -12,14 +19,14 @@ const Navbar = () => {
       <span> Nakul.dev</span>
       </h3>
     <ul className='pj-list'>
-      <li><ul className='pj-list1'>
+      <li><ul className={`pj-list1 ${isMenuOpen ? 'open' : ''}`}>
       <li>Home</li>
       <li>About</li>
       <li>Project</li>
       <li>Contact</li>
         </ul></li>
+        <li id='scroll'><i  className="fa-solid fa-bars-staggered mobile-menu" onClick={handleMobileMenuClick}></i></li>
    
-      <li><i className="fa-solid fa-bars-staggered mobile-menu"></i></li>
     </ul>
     
     

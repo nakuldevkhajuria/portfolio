@@ -4,9 +4,8 @@ const Home = () => {
 
 useEffect(()=>{
 
-   const list =  document.getElementById('myList li')
+  document.getElementById('myList li')
 //    list.innerText= 'helo'
-    console.log(list)
 },[])
 
     return (
