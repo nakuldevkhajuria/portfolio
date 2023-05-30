@@ -34,6 +34,10 @@
    font-size: 1.2rem;
    font-weight: 500;
 }
+.pj-list1 li a{
+text-decoration: none;
+color: #2d2e32;
+}
 #scroll{
 /* display: none; */
 }

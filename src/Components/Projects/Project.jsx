@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectStyle.css'
 const Project = () => {
   return (
-    <div className='project'>
+    <div id='project' className='project'>
       <div className='containerProject'>
     <div className='heading'>
 <h3>PORTFOLIO</h3>

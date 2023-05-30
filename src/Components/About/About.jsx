@@ -2,14 +2,19 @@ import React from 'react'
 import './Style.css'
 const About = () => {
     return (
-        <div className='AboutSection'>
+        <div id='about' className='AboutSection'>
    <div className="container">
     <div className='aboutContent'> 
     <div id='aboutImage'></div>
     <div className="text-content">
         <h4>About me</h4>
-        <h3>A dedicated Front-end Developer <br/> 
-        based in Gurugram, India 📍</h3><p>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p></div>
+       
+
+        <h3>A dedicated Front-end Developer <br /> based in Chandigarh , India 📍</h3> 
+        <p> With a strong foundation as a Junior Front-End Developer, I possess a diverse skill set that includes HTML, CSS, JavaScript, React, Express, Node.js, MongoDB, and Tailwind CSS. My focus lies in designing and maintaining responsive websites that deliver a seamless user experience.
+
+Crafting dynamic and engaging interfaces is my expertise. I take pride in writing clean and optimized code while utilizing cutting-edge development tools and techniques. By staying updated with the latest trends and technologies, I ensure that the websites I create are at the forefront of innovation.</p>
+        </div>
      
     </div>
     <div></div>

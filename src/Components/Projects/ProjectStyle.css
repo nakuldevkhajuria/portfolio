@@ -83,6 +83,9 @@ height: 38rem;
 }
 
 @media (max-width:1000px){
+  .heading{
+    text-align:center;
+  }
   .containerProject{
     margin: 2rem 2rem 2rem;
   }

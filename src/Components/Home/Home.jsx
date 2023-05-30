@@ -9,7 +9,7 @@ useEffect(()=>{
 },[])
 
     return (
-        <div className='section'>
+        <div id='home' className='section'>
             <div className='container'>
                 <div className='content'>
                     <div className='hero-text'>
@@ -17,7 +17,7 @@ useEffect(()=>{
                         <i id='computer' className="fa-solid fa-display"></i>
                         </h1>
                         <p>
-                            Hi, i'm Nakul dev Khajuria. A passionate MERN Stack developer based in Delhi, India.
+                            Hi, i'm Nakul dev Khajuria. A passionate MERN Stack developer based in Chandigarh, India.
                         </p>
                         <div className='social-media'>
                             <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/nakuldevkhajuria/"><i className="fa-brands fa-linkedin"></i></a>

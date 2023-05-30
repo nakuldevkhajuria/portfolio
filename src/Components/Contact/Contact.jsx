@@ -2,7 +2,7 @@ import React from 'react'
 import './Style.css'
 const Contact = () => {
     return (
-        <div className='contactSection'>
+        <div id='contact' className='contactSection'>
             <div className='contactContainer'>
                 <div className='contactContent'>
                     <h4>CONTACT</h4>
