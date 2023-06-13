@@ -17,7 +17,7 @@ const Project = () => {
      
        
         <div id="iframeContainer">
-      <iframe src="https://coding-ninja-frontend-pi.vercel.app/"></iframe>
+      <iframe title='coding-ninja' src="https://coding-ninja-frontend-pi.vercel.app/"></iframe>
     </div>    
    
 </section>

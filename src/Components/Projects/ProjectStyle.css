@@ -106,6 +106,7 @@ grid-template-rows: auto;
     padding-bottom: 56.25%; /* Maintain a 16:9 aspect ratio (adjust as needed) */
     position: relative;
     overflow: hidden;
+    margin: 1rem;
   }
   #iframeContainer iframe {
     position: absolute;
