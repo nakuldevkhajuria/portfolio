@@ -12,7 +12,7 @@ const Project = () => {
     </div>
   
     <div className='sectionProject'> 
-    <h1>Project 1</h1>
+    <h1>Coding Ninja's Clone From Scratch</h1>
        <section id='grid' className='blue'>
      
        

@@ -36,15 +36,16 @@ height: 38rem;
 #grid {
   display: grid;
   min-height: 60px;
-  grid-template-rows: 0fr;
-  transition:all 1900ms ease ;
+  grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+  /* transition:all 1900ms ease ; */
 }
 #grid > div{
   overflow: hidden;
 
 }
 #grid:hover{
-  grid-template-rows: 3fr;
+  /* grid-template-rows: 3fr; */
 }
 
 
@@ -101,7 +102,7 @@ height: 38rem;
 
   #iframeContainer {
     width: 100%;
-    height: 0;
+    height: 100%;
     padding-bottom: 56.25%; /* Maintain a 16:9 aspect ratio (adjust as needed) */
     position: relative;
     overflow: hidden;
@@ -111,5 +112,5 @@ height: 38rem;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 47%;
   }
