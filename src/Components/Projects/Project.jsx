@@ -14,11 +14,12 @@ const Project = () => {
     <div className='sectionProject'> 
     <h1>Project 1</h1>
        <section id='grid' className='blue'>
-        <div>
+     
        
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sed facere esse animi expedita aut iure consequuntur alias sint. Deserunt quibusdam voluptas doloribus libero facilis cum molestiae praesentium, ratione ipsa.</p>
-    
-    </div>
+        <div id="iframeContainer">
+      <iframe src="https://coding-ninja-frontend-pi.vercel.app/"></iframe>
+    </div>    
+   
 </section>
 <h1>Project 2</h1>
 <section id='grid' className='orange'>
